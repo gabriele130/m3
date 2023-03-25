@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="m3d3.css">
+</head>
+
+<body>
+
+
+  <!--MAIN-->
+<div class="container">
+  <nav id="navbar-example2" class="navbar px-3 mb-3">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">Favourite albums</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Reviews</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="true">Dropdown</a>
+        <ul class="dropdown-menu right">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Worst albums</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">All albums</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Biografy</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+   
+    <!-- Favourite albums-->
+    <div class="container">
+    <h4 id="scrollspyHeading1">Favourite albums</h4>
+   
+    
+      <div class="row mt-4 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 ">
+          <div class="card" style="width: 15rem; height: 18rem;">
+            <img src="marra.jpg" class="card-img-top" alt="Noi, loro, gli altri">
+            <div class="card-body">
+              <h5 class="card-title"> Noi, loro, gli altri</h5>
+              <p class="card-group">
+                Artista: Marracash </p>
+              <p class="card-group"> Musical genre: Trap </p>
+
+              <p class="card-group"> Duration: 42:51</p>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-4 col-sm-6 ">
+          <div class="card" style="width: 15rem; height: 18rem;">
+            <img src="marracash2.jpg" class="card-img-top" alt="Persona">
+            <div class="card-body">
+              <h5 class="card-title">Persona</h5>
+              <p class="card-group">
+                Artista: Marracash</p>
+              <p class="card-group"> Musical genre: Trap</p>
+              <p class="card-group"> Duration: 50:52</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 ">
+          <div class="card" style="width: 15rem; height: 18rem;">
+            <img src="sfeera.jpg" class="card-img-top" alt="Famosa">
+            <div class="card-body">
+              <h5 class="card-title">Famoso</h5>
+              <p class="card-group">
+                Artista: sferaebbasta</p>
+              <p class="card-group"> Musical genre: hip hop/rap</p>
+              <p class="card-group"> 39:05 </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 ">
+          <div class="card" style="width: 15rem; height: 18rem;">
+            <img src="gue.jfif" class="card-img-top" alt="Bravo ragazzo">
+            <div class="card-body">
+              <h5 class="card-title">Bravo ragazzo</h5>
+              <p class="card-group">
+                Artista: Gue pequeno</p>
+              <p class="card-group">Musical genre: Gangsta rap Alternative hip hop Pop rap</p>
+              <p class="card-group"> Duration: 71:36 </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Favourite albums-->
+
+     <!--Reviews-->
+    <div class="container ">
+    <h4 id="scrollspyHeading2">Reviews</h4>
+      <div class="container.Reviews" style="display: flex;">
+
+        <img src="geolier.jpeg" id="card-img-reviews" alt="Il coraggio dei bambini">
+
+        <div class="body-reviews">
+          <h5 id="title-reviews">Il coraggio dei bambini</h5>
+          <div id="group-reviews">
+            <p class="reviews-text">
+              Album</p>
+            <p class="reviews-text">Geolier</p>
+            <p class="reviews-text"> 2023 </p>
+          </div>
+          <div>
+            <p class="reviews-text">18 brani</p >
+            <p class="reviews-text">50 minuti</p>
+          </div>
+        </div>
+        <div class="container">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Track Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Example: HERE I COME">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Your Reviews</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="It's very cool"></textarea>
+        </div>
+      </div>
+      </div>
+    
+
+<!--Table music-->
+
+<div id="table">
+      <table class="table">
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>RICCHEZZA</td>
+          
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>POCO/TROPPO</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">X CASO (con Sfera Ebbasta)</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>ME VULE FA RUOSS</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>LONELY</td>
+           
+          <tr>
+            <th scope="row">6</th>
+            <td colspan="2">NUN SE VER (con Guè)</td>
+           
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>MONDAY (con Shiva e Michelangelo)</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>MONEY</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td colspan="2">MARADONA</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>I AM</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">11</th>
+            <td>NAPO****NO</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">12</th>
+            <td colspan="2">
+              NIENTE DI SPECIALE</td>
+          </tr>
+          <tr>
+            <th scope="row">13</th>
+            <td>COME VUOI</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">14</th>
+            <td>IN TRAPPOLA (con Lele Blade)</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">15</th>
+            <td colspan="2">HERE I COME</td>
+          </tr>
+          <tr>
+            <th scope="row">16</th>
+            <td>CHIAGNE (con Lazza e Takagi & Ketra)</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">17</th>
+            <td>NON CI TORNI PIÙ (con Paky)</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">18</th>
+            <td colspan="2">GIVE YOU MY LOVE</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    </div>
+    <!-- End Reviews-->
+    <h4 id="scrollspyHeading3">Worst albums</h4>
+    <table>
+      
+      
+      <tbody>
+        <tr>
+          <td><img src="luche.jpg" alt=""> Dove volano le aquile</td>
+          <td><img src="luche.jpg" alt=""> Dove volano le aquile </td>
+          <td> <img src="luche.jpg" alt=""> Dove volano le aquile</td>
+          <td> <img src="luche.jpg" alt=""> Dove volano le aquile</td>
+        </tr>
+        <tr>
+          <td> <img src="luche.jpg" alt=""> Dove volano le aquile</td>
+          <td><img src="luche.jpg" alt=""> Dove volano le aquile </td>
+          <td> <img src="luche.jpg" alt=""> Dove volano le aquile</td>
+          <td> <img src="luche.jpg" alt=""> Dove volano le aquile</td>
+        </tr>
+        <tr>
+          <td><img src="luche.jpg" alt=""> Dove volano le aquile </td>
+          <td><img src="luche.jpg" alt=""> Dove volano le aquile </td>
+          <td><img src="luche.jpg" alt=""> Dove volano le aquile </td>
+          <td> <img src="luche.jpg" alt=""> Dove volano le aquile</td>
+        </tr>
+      </tbody>
+    </table>
+   
+   
+
+
+
+    <h4 id="scrollspyHeading4">All albums</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading5">Biografy</h4>
+    <p>...</p>
+  </div>
+</div>
+
+
+
+
+</body>
+<script src="bootstrap.bundle.js"></script>
+
+</html>

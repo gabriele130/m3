@@ -1,0 +1,99 @@
+body {
+  background: rgb(44,68,185);
+  background: radial-gradient(circle, rgba(44,68,185,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.scrollspy-example{
+  background: rgb(44,68,185);
+  background: radial-gradient(circle, rgba(44,68,185,1) 0%, rgba(0,0,0,1) 100%);
+}
+  
+nav{
+ background-color: rgb(14, 21, 57);
+}
+
+h1{
+  font-size: x-large;
+  color: whitesmoke;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card{
+  background-color: transparent;
+  border: none;
+}
+  .card-body{
+    width: 10rem;
+    background-color: none;
+  }
+
+  .card img{
+    width: 100%;
+    height: 11.5rem;
+    border-radius: 10% 20% 10%;
+  }
+
+  .card-title{
+    color: whitesmoke;
+    font-size: 15px;
+  }
+
+  .card-group  {
+    color: white;
+    font-size: 11px;
+    margin-bottom: 1px;
+  }
+
+.container.Reviews{
+  display: flex;
+}
+  #card-img-reviews{
+    height: 16rem;
+    width: 16rem;
+    border-radius: 10px;
+  }
+
+  #title-reviews{
+    font-size: 1.5rem;
+    color:black ;
+  }
+
+  #group-reviews{
+    display: flex;
+    gap: 15px;
+  }
+  .body-reviews{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .reviews-text{
+    font-size: 1rem;
+    color: whitesmoke;
+    margin-bottom: 3px;
+  }
+ 
+ .table th{
+  color: whitesmoke
+ }
+
+ .table td{
+  color: whitesmoke;
+ }
+
+ #scrollspyHeading2,  #scrollspyHeading3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+ }
+
+ th >img{
+  width: auto;
+  height: 6rem;
+ }
+ 
+
+td img{
+  width: 5rem;
+}
